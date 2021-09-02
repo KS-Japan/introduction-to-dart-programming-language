@@ -1,7 +1,17 @@
 # introduction-to-dart-programming-language
 The Dart Programming Language 
 
-## Flutter 外部パッケージを利用
+### Flutter アップデート方法
+安定版に切り替え<br>
+```
+flutter channel stable
+```
+アップデート
+```
+flutter upgrade
+```
+
+### Flutter 外部パッケージを利用
 外部ライブラリを利用するときは`pubspec.yaml`のdependenciesに記載をする<br>
 例：<br>
 ```
